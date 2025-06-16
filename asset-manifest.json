@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/vishal9958/Bappaditya-Portfolio.git/static/css/main.a529bebb.css",
+    "main.js": "/vishal9958/Bappaditya-Portfolio.git/static/js/main.7f65df4d.js",
+    "static/js/453.a8c235dd.chunk.js": "/vishal9958/Bappaditya-Portfolio.git/static/js/453.a8c235dd.chunk.js",
+    "index.html": "/vishal9958/Bappaditya-Portfolio.git/index.html",
+    "main.a529bebb.css.map": "/vishal9958/Bappaditya-Portfolio.git/static/css/main.a529bebb.css.map",
+    "main.7f65df4d.js.map": "/vishal9958/Bappaditya-Portfolio.git/static/js/main.7f65df4d.js.map",
+    "453.a8c235dd.chunk.js.map": "/vishal9958/Bappaditya-Portfolio.git/static/js/453.a8c235dd.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.a529bebb.css",
+    "static/js/main.7f65df4d.js"
+  ]
+}
