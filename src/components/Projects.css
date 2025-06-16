@@ -1,0 +1,136 @@
+.projects-container {
+  padding: 5rem 2rem;
+  background-color: #0d0d0d;
+  color: #fff;
+  text-align: center;
+}
+
+.projects-container h2 {
+  font-size: 2.5rem;
+  margin-bottom: 3rem;
+}
+
+.gradient-text {
+  background: linear-gradient(to right, #a78bfa, #34d399);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.projects-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(310px, 1fr));
+  gap: 2rem;
+}
+
+.project-card {
+  background: #111;
+  border-radius: 15px;
+  overflow: hidden;
+  box-shadow: 0 0 10px rgba(255,255,255,0.05);
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.project-header {
+  height: 140px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.project-icon {
+  font-size: 2.5rem;
+  color: #fff;
+}
+
+.project-body {
+  padding: 1.5rem;
+  text-align: left;
+}
+
+.project-body h3 {
+  font-size: 1.25rem;
+  margin-bottom: 0.5rem;
+}
+
+.project-body p {
+  font-size: 0.95rem;
+  margin-bottom: 1rem;
+  color: #cbd5e1;
+}
+
+.tags {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+  margin-bottom: 1rem;
+}
+
+.tag {
+  padding: 4px 10px;
+  font-size: 0.75rem;
+  border-radius: 5px;
+  color: white;
+  font-weight: bold;
+}
+
+.react { background-color: #61dafb; color: #000; }
+.nodejs { background-color: #3c873a; }
+.mongodb { background-color: #facc15; color: #000; }
+.vuejs { background-color: #42b883; }
+.express { background-color: #6b7280; }
+.socketio { background-color: #9333ea; }
+.firebase { background-color: #ffcb2b; color: #000; }
+.html { background-color: #f97316; }
+.css { background-color: #2563eb; }
+.javascript { background-color: #facc15; color: #000; }
+.chartjs { background-color: #9333ea; }
+.localstorage { background-color: #64748b; }
+
+.links {
+  display: flex;
+  gap: 1rem;
+  font-size: 0.85rem;
+}
+
+.links a {
+  color: #a78bfa;
+  text-decoration: none;
+  display: flex;
+  align-items: center;
+  gap: 5px;
+  transition: all 0.3s ease;
+}
+
+.links a:hover {
+  color: #38bdf8;
+}
+
+.project-button {
+  margin-top: 3rem;
+}
+
+.project-button button {
+  background: linear-gradient(to right, #a78bfa, #34d399);
+  color: white;
+  padding: 0.8rem 2rem;
+  border: none;
+  border-radius: 10px;
+  font-weight: 600;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.project-button button:hover {
+  transform: scale(1.05);
+  box-shadow: 0 0 15px #34d399;
+}
+.project-img {
+  width: 100%;
+  height: 180px;
+  object-fit: cover;
+  border-radius: 12px 12px 0 0;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}

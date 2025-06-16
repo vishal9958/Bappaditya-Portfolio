@@ -1,0 +1,93 @@
+.hero {
+  background-color: #0e0e0e;
+  color: white;
+  padding: 80px 5%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.hero-left {
+  max-width: 600px;
+}
+
+.hero-left h1 {
+  font-size: 3.2rem;
+  margin-bottom: 10px;
+}
+
+.name-gradient {
+  background: linear-gradient(90deg, #7c3aed, #06b6d4);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.hero-left h2 {
+  color: #b3b3b3;
+  font-size: 1.8rem;
+  margin-bottom: 20px;
+}
+
+.hero-left p {
+  font-size: 1.1rem;
+  color: #cccccc;
+  margin-bottom: 30px;
+}
+
+.hero-buttons {
+  display: flex;
+  gap: 15px;
+  flex-wrap: wrap;
+}
+
+.btn {
+  padding: 12px 24px;
+  border-radius: 6px;
+  font-weight: bold;
+  text-decoration: none;
+  transition: 0.3s;
+}
+
+.filled {
+  background-color: #7c3aed;
+  color: white;
+}
+
+.filled:hover {
+  background-color: #6b21a8;
+}
+
+.outline {
+  border: 2px solid #7c3aed;
+  color: #7c3aed;
+}
+
+.outline:hover {
+  background-color: #7c3aed;
+  color: white;
+}
+
+.hero-right {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 40px;
+}
+
+.profile-ring {
+  width: 200px;
+  height: 200px;
+  border: 2px solid #6b21a8;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: radial-gradient(circle at center, #1f1f1f, #0e0e0e);
+  box-shadow: 0 0 20px #6b21a8;
+}
+
+.profile-icon {
+  font-size: 4rem;
+  color: #f1f1f1;
+}
