@@ -10,7 +10,7 @@ const projects = [
     color: "linear-gradient(to right, #4f46e5, #9333ea)",
     live: "https://vishal9958.github.io/Vishal-Bharat-/",
     code: "https://github.com/vishal9958/Vishal-Bharat-",
-    image: "images/vishalbhart.png"
+    image: "bappaditya-portfolio/images/vishalbhart.png"
   },
   {
     title: "Ticket-Bot",
