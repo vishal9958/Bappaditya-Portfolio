@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/Bappaditya-Portfolio/static/css/main.a529bebb.css",
-    "main.js": "/Bappaditya-Portfolio/static/js/main.5145f7bf.js",
+    "main.js": "/Bappaditya-Portfolio/static/js/main.7d2fb97b.js",
     "static/js/453.a8c235dd.chunk.js": "/Bappaditya-Portfolio/static/js/453.a8c235dd.chunk.js",
     "index.html": "/Bappaditya-Portfolio/index.html",
     "main.a529bebb.css.map": "/Bappaditya-Portfolio/static/css/main.a529bebb.css.map",
-    "main.5145f7bf.js.map": "/Bappaditya-Portfolio/static/js/main.5145f7bf.js.map",
+    "main.7d2fb97b.js.map": "/Bappaditya-Portfolio/static/js/main.7d2fb97b.js.map",
     "453.a8c235dd.chunk.js.map": "/Bappaditya-Portfolio/static/js/453.a8c235dd.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.a529bebb.css",
-    "static/js/main.5145f7bf.js"
+    "static/js/main.7d2fb97b.js"
   ]
 }
