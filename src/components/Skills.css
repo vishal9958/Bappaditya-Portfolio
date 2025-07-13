@@ -6,9 +6,11 @@
   text-align: center;
 }
 
-.skills-container h3 , h2 {
+.skills-container h2,
+.skills-container h3 {
   font-size: 2.5rem;
   font-weight: 700;
+  margin-bottom: 1rem;
 }
 
 .gradient-text {
@@ -17,9 +19,10 @@
   -webkit-text-fill-color: transparent;
 }
 
+/* ✅ Skill Cards Grid */
 .skill-boxes {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
   gap: 2rem;
   margin: 3rem 0;
 }
@@ -29,11 +32,11 @@
   padding: 2rem;
   border-radius: 15px;
   box-shadow: 0 0 10px rgba(255, 255, 255, 0.05);
-  transition: transform 0.3s;
+  transition: transform 0.3s ease;
 }
 
 .skill-category:hover {
-  transform: translateY(-5px);
+  transform: translateY(-6px);
 }
 
 .skill-category h3 {
@@ -45,11 +48,10 @@
   gap: 0.5rem;
 }
 
-
-
 .skill-category ul {
   list-style: none;
   padding: 0;
+  margin: 0;
 }
 
 .skill-category li {
@@ -69,7 +71,7 @@
   border-radius: 5px;
 }
 
-/* ✅ Technologies Icons - Neutral Look */
+/* ✅ Technology Icons */
 .tech-title {
   font-size: 1.6rem;
   margin-top: 4rem;
@@ -88,20 +90,20 @@
   padding: 1.2rem;
   border-radius: 50%;
   font-size: 2rem;
+  color: #d1d5db;
   transition: all 0.3s ease;
-  color: #d1d5db; /* Neutral gray */
-  box-shadow: none;
   cursor: pointer;
   display: flex;
   flex-direction: column;
   align-items: center;
+  justify-content: center;
   width: 80px;
   height: 80px;
-  justify-content: center;
+  box-shadow: 0 0 0 transparent;
 }
 
 .tech-icons .icon:hover {
-  color: #3b82f6; /* Blue on hover */
+  color: #3b82f6;
   box-shadow: 0 0 15px #3b82f6;
   transform: scale(1.1);
 }
@@ -109,4 +111,83 @@
 .tech-icons .icon p {
   font-size: 0.7rem;
   margin-top: 0.4rem;
+  text-align: center;
+}
+
+/* ✅ Responsive - Tablet */
+@media (max-width: 768px) {
+  .skills-container {
+    padding: 4rem 1.5rem;
+  }
+
+  .skills-container h2,
+  .skills-container h3 {
+    font-size: 2.2rem;
+  }
+
+  .tech-title {
+    font-size: 1.4rem;
+  }
+
+  .skill-category h3 {
+    font-size: 1.2rem;
+  }
+
+  .tech-icons .icon {
+    font-size: 1.6rem;
+    width: 72px;
+    height: 72px;
+  }
+
+  .tech-icons .icon p {
+    font-size: 0.65rem;
+  }
+}
+
+/* ✅ Mobile Devices */
+@media (max-width: 480px) {
+  .skills-container {
+    padding: 3rem 1rem;
+  }
+
+  .skills-container h2,
+  .skills-container h3 {
+    font-size: 2rem;
+  }
+
+  .skill-boxes {
+    gap: 1.5rem;
+  }
+
+  .skill-category {
+    padding: 1.5rem;
+  }
+
+  .skill-category h3 {
+    font-size: 1.1rem;
+    margin-bottom: 1.2rem;
+  }
+
+  .skill-category li {
+    margin-bottom: 0.8rem;
+  }
+
+  .tech-title {
+    font-size: 1.2rem;
+    margin-top: 3rem;
+  }
+
+  .tech-icons {
+    gap: 1rem;
+  }
+
+  .tech-icons .icon {
+    font-size: 1.5rem;
+    width: 64px;
+    height: 64px;
+  }
+
+  .tech-icons .icon p {
+    font-size: 0.6rem;
+  }
 }

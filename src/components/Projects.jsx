@@ -10,7 +10,7 @@ const projects = [
     color: "linear-gradient(to right, #4f46e5, #9333ea)",
     live: "https://vishal9958.github.io/Vishal-Bharat-/",
     code: "https://github.com/vishal9958/Vishal-Bharat-",
-    image: "images/vishalbhart.png"
+    image: "bappaditya-portfolio/images/vishalbhart.png"
   },
   {
     title: "Ticket-Bot",
@@ -19,7 +19,7 @@ const projects = [
     color: "linear-gradient(to right, #10b981, #06b6d4)",
     live: "https://vishal9958.github.io/TicketBot/",
     code: "https://github.com/vishal9958/TicketBot",
-    image:"/images/ticket-bot.png"
+    image:"bappaditya-portfolio/images/ticket-bot.png"
   },
   {
     title: "Flappy Bird",
@@ -28,7 +28,7 @@ const projects = [
     color: "linear-gradient(to right, #a855f7, #ec4899)",
     live: "https://vishal9958.github.io/Flappy_Bird/",
     code: "https://github.com/vishal9958/Flappy_Bird",
-    image:"/images/flappybird.png"
+    image:"bappaditya-portfolio/images/flappybird.png"
 
   },
   {
@@ -38,7 +38,7 @@ const projects = [
     color: "linear-gradient(to right, #f59e0b, #ef4444)",
     live: "https://vishal9958.github.io/BAPPADITYA/",
     code: "https://github.com/vishal9958/BAPPADITYA",
-    image:"/images/portfolio.png"
+    image:"bappaditya-portfolio/images/portfolio.png"
 
   },
   {
@@ -48,7 +48,7 @@ const projects = [
     color: "linear-gradient(to right, #6366f1, #3b82f6)",
     live: "https://vishal9958.github.io/Musify/",
     code: "https://github.com/vishal/blog-cms",
-    image:"/images/musify.png"
+    image:"bappaditya-portfolio/images/musify.png"
 
   },
   {
@@ -58,7 +58,7 @@ const projects = [
     color: "linear-gradient(to right, #0ea5e9, #38bdf8)",
     live: "https://vishal9958.github.io/sky-viewer/",
     code: "https://github.com/vishal9958/sky-viewer",
-    image:"/images/sky-viewer.png"
+    image:"bappaditya-portfolio/images/sky-viewer.png"
 
   },
   {
@@ -68,7 +68,7 @@ const projects = [
     color: "linear-gradient(to right, #6d28d9, #9333ea)",
     live: "https://vishalchatapp.netlify.app",
     code: "https://github.com/vishal9958/Music_Tape",
-    image:"/images/musictape.png"
+    image:"bappaditya-portfolio/images/musictape.png"
 
   },
   {
@@ -78,7 +78,7 @@ const projects = [
     color: "linear-gradient(to right, #10b981, #3b82f6)",
     live: "https://vishal9958.github.io/PDF_maker/netlify.app",
     code: "https://github.com/vishal9958/PDF_maker/blob/main/pdf.py",
-    image:"/images/pdfconverter.png"
+    image:"bappaditya-portfolio/images/pdfconverter.png"
 
   },
   {
@@ -88,7 +88,7 @@ const projects = [
     color: "linear-gradient(to right, #14b8a6, #4ade80)",
     live: "https://vishal9958.github.io/Login-Form-2/",
     code: "https://github.com/vishal9958/Login-Form-2",
-    image:"/images/login-form.png"
+    image:"bappaditya-portfolio/images/login-form.png"
 
   },
 ];

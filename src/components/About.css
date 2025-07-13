@@ -82,9 +82,68 @@
   color: #cccccc;
 }
 
-/* Responsive */
+/* ✅ Responsive Improvements */
 @media (max-width: 768px) {
+  .about {
+    padding: 3rem 1rem;
+  }
+
+  .section-title {
+    font-size: 2rem;
+    margin-bottom: 2rem;
+  }
+
   .about-content {
     flex-direction: column;
+    gap: 2rem;
+  }
+
+  .about-left {
+    flex: 1 1 100%;
+    padding: 1.5rem;
+  }
+
+  .about-left h3 {
+    font-size: 1.3rem;
+  }
+
+  .about-left p {
+    font-size: 0.95rem;
+  }
+
+  .about-right {
+    grid-template-columns: repeat(auto-fit, minmax(160px, 1fr));
+    gap: 1rem;
+  }
+
+  .about-card h4 {
+    font-size: 1rem;
+  }
+
+  .about-card p {
+    font-size: 0.85rem;
+  }
+
+  .icon {
+    font-size: 1.6rem;
+  }
+}
+
+/* 📱 Optional Super Small Mobile Fix */
+@media (max-width: 480px) {
+  .section-title {
+    font-size: 1.7rem;
+  }
+
+  .about-left h3 {
+    font-size: 1.2rem;
+  }
+
+  .about-card {
+    padding: 1.2rem;
+  }
+
+  .icon {
+    font-size: 1.4rem;
   }
 }

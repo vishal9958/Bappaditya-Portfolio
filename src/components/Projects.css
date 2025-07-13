@@ -75,6 +75,7 @@
   font-weight: bold;
 }
 
+/* Tech-specific tag styles */
 .react { background-color: #61dafb; color: #000; }
 .nodejs { background-color: #3c873a; }
 .mongodb { background-color: #facc15; color: #000; }
@@ -87,9 +88,11 @@
 .javascript { background-color: #facc15; color: #000; }
 .chartjs { background-color: #9333ea; }
 .localstorage { background-color: #64748b; }
+.python { background-color: #477dca; }
 
 .links {
   display: flex;
+  flex-wrap: wrap;
   gap: 1rem;
   font-size: 0.85rem;
 }
@@ -127,10 +130,89 @@
   transform: scale(1.05);
   box-shadow: 0 0 15px #34d399;
 }
+
 .project-img {
   width: 100%;
   height: 180px;
   object-fit: cover;
   border-radius: 12px 12px 0 0;
   box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+/* ✅ Tablet & Mobile Responsive */
+@media (max-width: 768px) {
+  .projects-container {
+    padding: 4rem 1.5rem;
+  }
+
+  .projects-container h2 {
+    font-size: 2.2rem;
+    margin-bottom: 2.5rem;
+  }
+
+  .project-body h3 {
+    font-size: 1.15rem;
+  }
+
+  .project-body p {
+    font-size: 0.9rem;
+  }
+
+  .project-img {
+    height: 170px;
+  }
+
+  .project-button button {
+    padding: 0.75rem 1.8rem;
+    font-size: 0.95rem;
+  }
+}
+
+/* 📱 Very Small Screens (e.g., ≤ 480px) */
+@media (max-width: 480px) {
+  .projects-container {
+    padding: 3rem 1rem;
+  }
+
+  .projects-container h2 {
+    font-size: 2rem;
+  }
+
+  .projects-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .project-body {
+    padding: 1.2rem;
+  }
+
+  .project-body h3 {
+    font-size: 1rem;
+  }
+
+  .project-body p {
+    font-size: 0.85rem;
+  }
+
+  .tag {
+    font-size: 0.7rem;
+    padding: 3px 8px;
+  }
+
+  .project-img {
+    height: 160px;
+  }
+
+  .project-button {
+    margin-top: 2rem;
+  }
+
+  .project-button button {
+    padding: 0.7rem 1.4rem;
+    font-size: 0.9rem;
+  }
+
+  .links {
+    font-size: 0.8rem;
+  }
 }

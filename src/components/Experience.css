@@ -1,3 +1,4 @@
+/* ✅ Experience / Work Section */
 .work-section {
   background-color: #0f0f0f;
   color: #fff;
@@ -18,6 +19,7 @@
   -webkit-text-fill-color: transparent;
 }
 
+/* ✅ Timeline Container */
 .timeline-wrapper {
   position: relative;
   padding-left: 40px;
@@ -32,8 +34,8 @@
   background-color: #8b5cf6;
 }
 
+/* ✅ Timeline Layout */
 .timeline {
-  position: relative;
   display: flex;
   flex-direction: column;
   gap: 4rem;
@@ -57,6 +59,7 @@
   z-index: 2;
 }
 
+/* ✅ Experience Card Styling */
 .experience-card {
   background: #111;
   padding: 20px;
@@ -70,6 +73,7 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
+  flex-wrap: wrap;
 }
 
 .experience-header h3 {
@@ -84,6 +88,7 @@
   padding: 5px 12px;
   border-radius: 999px;
   color: #60a5fa;
+  margin-top: 0.5rem;
 }
 
 .company-name {
@@ -92,6 +97,7 @@
   margin: 0.6rem 0 1rem;
 }
 
+/* ✅ Experience Points */
 .experience-points {
   list-style: none;
   padding-left: 0;
@@ -111,4 +117,93 @@
   margin-right: 0.6rem;
   font-size: 1rem;
   margin-top: 3px;
+}
+
+/* ✅ Tablet Responsive Design */
+@media (max-width: 768px) {
+  .section-title {
+    font-size: 2rem;
+  }
+
+  .timeline-wrapper {
+    padding-left: 25px;
+  }
+
+  .timeline-dot {
+    left: 12px;
+  }
+
+  .timeline-line {
+    left: 18px;
+  }
+
+  .experience-card {
+    margin-left: 35px;
+    padding: 1.2rem;
+  }
+
+  .experience-header h3 {
+    font-size: 1.1rem;
+  }
+
+  .experience-date {
+    font-size: 0.75rem;
+    padding: 4px 10px;
+  }
+
+  .company-name {
+    font-size: 0.95rem;
+  }
+
+  .experience-points li {
+    font-size: 0.9rem;
+  }
+}
+
+/* ✅ Extra Mobile Optimization for Phones */
+@media (max-width: 480px) {
+  .section-title {
+    font-size: 1.7rem;
+  }
+
+  .timeline-wrapper {
+    padding-left: 20px;
+  }
+
+  .timeline-dot {
+    left: 8px;
+    width: 12px;
+    height: 12px;
+  }
+
+  .timeline-line {
+    left: 14px;
+  }
+
+  .experience-card {
+    margin-left: 28px;
+    padding: 1rem;
+  }
+
+  .experience-header h3 {
+    font-size: 1rem;
+  }
+
+  .experience-date {
+    font-size: 0.7rem;
+    padding: 4px 8px;
+  }
+
+  .company-name {
+    font-size: 0.9rem;
+  }
+
+  .experience-points li {
+    font-size: 0.85rem;
+  }
+
+  .tick-icon {
+    font-size: 0.9rem;
+    margin-top: 2px;
+  }
 }
