@@ -38,7 +38,11 @@ const projects = [
     color: "linear-gradient(to right, #f59e0b, #ef4444)",
     live: "https://vishal9958.github.io/BAPPADITYA/",
     code: "https://github.com/vishal9958/BAPPADITYA",
+<<<<<<< HEAD
     image:"bappaditya-portfolio/images/portfolio.png"
+=======
+    image:"public/images/flappybird.png"
+>>>>>>> 399e64364feacf92458fcb207c7c0200d529e701
 
   },
   {
