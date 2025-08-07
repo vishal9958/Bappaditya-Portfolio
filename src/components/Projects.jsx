@@ -58,7 +58,7 @@ const projects = [
     color: "linear-gradient(to right, #0ea5e9, #38bdf8)",
     live: "https://vishal9958.github.io/sky-viewer/",
     code: "https://github.com/vishal9958/sky-viewer",
-    image:"https://i.ibb.co/ZR0tYMDP/sky-viewer.png" alt="sky-viewer" border="0"
+    image:"https://ibb.co/fVsBnxw5"
 
   },
   {
