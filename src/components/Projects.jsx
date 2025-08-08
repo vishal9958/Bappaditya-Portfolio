@@ -18,7 +18,7 @@ const projects = [
     color: "linear-gradient(to right, #10b981, #06b6d4)",
     live: "https://vishal9958.github.io/TicketBot/",
     code: "https://github.com/vishal9958/TicketBot",
-    image:"https://i.ibb.co/VpVwWw3H/ticket-bot.png"
+    image:process.env.PUBLIC_URL + "/images/ticket-bot.png"
   },
   {
     title: "Flappy Bird",
