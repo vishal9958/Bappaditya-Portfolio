@@ -9,7 +9,7 @@ const projects = [
     tech: ["Html", "Css", "Javascript"],
     live: "https://vishal9958.github.io/Vishal-Bharat-/",
     code: "https://github.com/vishal9958/Vishal-Bharat-",
-    image: "https://i.ibb.co/HDnMs4GH/vishalbhart.png"
+    image: "https://i.ibb.co/RpzMmbQD/vishalbhart.png"
   },
   {
     title: "Ticket-Bot",
