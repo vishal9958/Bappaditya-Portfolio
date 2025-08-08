@@ -7,7 +7,6 @@ const projects = [
     title: "Vishal Bharat",
     desc: "Vishal Bharat is a comprehensive tourism listing website designed to showcase travel destinations across India..",
     tech: ["Html", "Css", "Javascript"],
-    color: "linear-gradient(to right, #4f46e5, #9333ea)",
     live: "https://vishal9958.github.io/Vishal-Bharat-/",
     code: "https://github.com/vishal9958/Vishal-Bharat-",
     image: "https://i.ibb.co/HDnMs4GH/vishalbhart.png"
